@@ -11,8 +11,7 @@ format = "Select Format:", "1. m4a (audio only)", "2. mp4_144p", "3. mp4_240p", 
 print(*format, sep="\n")
 format_options = input("Select Format: ")
 
-if format_options != 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
-    print("fail")
+
 
 
 class YLFormat(Enum):
